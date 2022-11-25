@@ -1,13 +1,14 @@
 package lesson1;
 
-import java.util.Random;
+
+import java.util.concurrent.ThreadLocalRandom;
 
 public class homework {
     public static int i, n;
     public static int index = 0;
 
     public static void main(String[] args) {
-        i = new Random().nextInt(1000);
+        i = ThreadLocalRandom.current().nextInt(-1000, 1000);
         System.out.println(i);
 
         maxM();
@@ -21,11 +22,23 @@ public class homework {
     }
 
     public static void multiples() {
-        int[] m1 = new int[?];
+        int sum = 0;
+        while (i < Short.MAX_VALUE){
+            if (i % n == 0) {
+                sum++;
+                i++;
+            }
+            else {
+                i++;
+            }
+        }
+
+        int[] m1 = new int[sum];
         while (i < Short.MAX_VALUE){
             if (i % n == 0) {
                 m1[index] = i;
                 index++;
+                i++;
             }
             else {
                 i++;
@@ -35,12 +48,24 @@ public class homework {
     }
 
     public static void notMultiples() {
-        int[] m2 = new int[?];
+        int sum = 0;
         int min = Short.MIN_VALUE;
+        while (Short.MIN_VALUE < i){
+            if (i % n != 0) {
+                sum++;
+                min++;
+            }
+            else {
+                min++;
+            }
+        }
+
+        int[] m2 = new int[sum];
         while (Short.MIN_VALUE < i){
             if (i % n != 0) {
                 m2[index] = i;
                 index++;
+                min++;
             }
             else {
                 min++;
