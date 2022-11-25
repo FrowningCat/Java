@@ -4,7 +4,7 @@ package lesson1;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class homework {
-    public static int i, n;
+    public static int i, n, sum;
     public static int index = 0;
 
     public static void main(String[] args) {
@@ -16,20 +16,20 @@ public class homework {
         notMultiples();
     }
 
+    public static int copiI = i;
     public static void maxM() {
         n = Integer.highestOneBit(i);
         System.out.println(n);
     }
 
     public static void multiples() {
-        int sum = 0;
-        while (i < Short.MAX_VALUE){
-            if (i % n == 0) {
+        while (copiI < Short.MAX_VALUE){
+            if (copiI % n == 0) {
                 sum++;
-                i++;
+                copiI++;
             }
             else {
-                i++;
+                copiI++;
             }
         }
 
@@ -48,15 +48,13 @@ public class homework {
     }
 
     public static void notMultiples() {
-        int sum = 0;
-        int min = Short.MIN_VALUE;
-        while (Short.MIN_VALUE < i){
-            if (i % n != 0) {
+        while (Short.MIN_VALUE < copiI){
+            if (copiI % n != 0) {
                 sum++;
-                min++;
+                copiI--;
             }
             else {
-                min++;
+                copiI--;
             }
         }
 
@@ -65,10 +63,10 @@ public class homework {
             if (i % n != 0) {
                 m2[index] = i;
                 index++;
-                min++;
+                i--;
             }
             else {
-                min++;
+                i--;
             }
         }
         System.out.println(m2);
