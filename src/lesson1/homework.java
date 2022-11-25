@@ -21,26 +21,30 @@ public class homework {
     }
 
     public static void multiples() {
-        int[] m1 = new int[1000000];
+        int[] m1 = new int[?];
         while (i < Short.MAX_VALUE){
             if (i % n == 0) {
                 m1[index] = i;
                 index++;
             }
-            i++;
+            else {
+                i++;
+            }
         }
         System.out.println(m1);
     }
 
     public static void notMultiples() {
-        int[] m2 = new int[100000];
+        int[] m2 = new int[?];
         int min = Short.MIN_VALUE;
         while (Short.MIN_VALUE < i){
             if (i % n != 0) {
                 m2[index] = i;
                 index++;
             }
-            min++;
+            else {
+                min++;
+            }
         }
         System.out.println(m2);
     }
