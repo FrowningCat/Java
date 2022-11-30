@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="add homefork">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2/homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/homework.java" afterDir="false" />
-    </list>
+    <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="add tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +76,7 @@
       <workItem from="1669373464431" duration="14578000" />
       <workItem from="1669621067102" duration="8432000" />
       <workItem from="1669715754883" duration="10700000" />
-      <workItem from="1669792126279" duration="1442000" />
+      <workItem from="1669792126279" duration="1950000" />
     </task>
     <task id="LOCAL-00001" summary="fix1">
       <created>1669380196717</created>
@@ -144,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669741278557</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add tasks">
+      <created>1669793705240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669793705240</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +175,7 @@
     <MESSAGE value="last fix" />
     <MESSAGE value="add lesson3" />
     <MESSAGE value="add homefork" />
-    <option name="LAST_COMMIT_MESSAGE" value="add homefork" />
+    <MESSAGE value="add tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tasks" />
   </component>
 </project>
