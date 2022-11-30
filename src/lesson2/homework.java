@@ -90,6 +90,22 @@ public class homework {
 
     public static void time()
     {
+        StringBuilder stringBuilder1 = new StringBuilder();
+        StringBuilder stringBuilder3 = new StringBuilder();
+        for (int i = 0; i < 10000; i++){
+            stringBuilder1.append("=");
+            stringBuilder3.append("=");
+        }
 
+        long start = System.currentTimeMillis();
+        String stringBuilder2 = stringBuilder1.toString().replace("=", "равно ");
+        System.out.println("Задание 7: ");
+        System.out.println("string: "+ (System.currentTimeMillis() - start));
+
+        start = System.currentTimeMillis();
+        for (int i = 0; i < 10000; i++){
+            stringBuilder3.replace(stringBuilder3.indexOf("="), stringBuilder3.indexOf("=")+1, "равно");
+        }
+        System.out.println("stringBuilder: "+ (System.currentTimeMillis() - start));
     }
 }
