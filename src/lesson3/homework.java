@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class homework {
 
     public static ArrayList<String> list = new ArrayList<>();
+    public static String listCopy;
     public static ArrayList<String> listTwo = new ArrayList<>();
     public static void main(String[] args) {
         list();
@@ -33,9 +34,10 @@ public class homework {
     }
 
     public static void listPlas(){
-        for (int b = 0; b < list.size();) {
-            list.set(b, "!");
-            b++;
+        for (int b = 0; b < list.size(); b++) {
+            listCopy = list.get(b);
+            list.set(b, listCopy + "!");
+            listCopy = "";
         }
         System.out.println("Задание 2:" + list);
     }

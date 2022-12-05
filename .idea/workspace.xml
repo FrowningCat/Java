@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="add lesson3">
-      <change afterPath="$PROJECT_DIR$/src/lesson4/homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson4/lesson4.java" afterDir="false" />
+    <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="add lesson4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson3/homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/homework.java" afterDir="false" />
     </list>
@@ -84,7 +82,9 @@
       <workItem from="1669792126279" duration="4393000" />
       <workItem from="1669892361270" duration="1201000" />
       <workItem from="1669968583268" duration="7750000" />
-      <workItem from="1670139302416" duration="7909000" />
+      <workItem from="1670139302416" duration="8266000" />
+      <workItem from="1670161688605" duration="1603000" />
+      <workItem from="1670238477448" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="fix1">
       <created>1669380196717</created>
@@ -163,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669794195725</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add homework3">
+      <created>1670147998778</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670147998778</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add lesson4">
+      <created>1670148016870</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670148016870</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +205,8 @@
     <MESSAGE value="add homefork" />
     <MESSAGE value="add tasks" />
     <MESSAGE value="add lesson3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lesson3" />
+    <MESSAGE value="add homework3" />
+    <MESSAGE value="add lesson4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson4" />
   </component>
 </project>
