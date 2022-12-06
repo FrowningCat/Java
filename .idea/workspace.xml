@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="last commit">
+    <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="add homework(beta)">
       <change afterPath="$PROJECT_DIR$/src/lesson5/homework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -85,7 +85,7 @@
       <workItem from="1670139302416" duration="8266000" />
       <workItem from="1670161688605" duration="1603000" />
       <workItem from="1670238477448" duration="1008000" />
-      <workItem from="1670308702133" duration="9530000" />
+      <workItem from="1670308702133" duration="9564000" />
     </task>
     <task id="LOCAL-00001" summary="fix1">
       <created>1669380196717</created>
@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670239484034</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add homework(beta)">
+      <created>1670333404321</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670333404321</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +231,7 @@
     <MESSAGE value="add lesson4" />
     <MESSAGE value="fix one exaple" />
     <MESSAGE value="last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
+    <MESSAGE value="add homework(beta)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework(beta)" />
   </component>
 </project>
