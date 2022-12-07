@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="add homework(beta)">
-      <change afterPath="$PROJECT_DIR$/src/lesson5/homework.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson4/homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,7 @@
       <workItem from="1670161688605" duration="1603000" />
       <workItem from="1670238477448" duration="1008000" />
       <workItem from="1670308702133" duration="9564000" />
+      <workItem from="1670393267894" duration="1590000" />
     </task>
     <task id="LOCAL-00001" summary="fix1">
       <created>1669380196717</created>

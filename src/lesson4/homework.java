@@ -3,12 +3,14 @@ package lesson4;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class homework {
+public class
+homework {
     static ArrayList<String> list_name = new ArrayList<>();
     static ArrayList<String> list_surname = new ArrayList<>();
     static ArrayList<String> list_patronymic = new ArrayList<>();
     static ArrayList<Integer> list_age = new ArrayList<>();
     static ArrayList<Boolean> list_gender = new ArrayList<>();
+    static ArrayList<Integer> list = new ArrayList<>();
 
     public static void main(String[] args) {
         Scanner cons = new Scanner(System.in);
@@ -16,6 +18,23 @@ public class homework {
         System.out.print("Введите количесвто поьзователей - ");
         int numerUsers = cons.nextInt();
         repit(numerUsers);
+
+        int groop = list.size()-1;
+        while (groop > -1){
+            int max = list_age.get(list.get(groop));
+            int index = groop;
+            for (int i = 0; i < groop; i++){
+                if(max < list_age.get(list.get(i))){
+                    max = list_age.get(list.get(i));
+                    index = i;
+                }
+            }
+            int tmp = list.get(groop);
+            list.set(groop, list.get(index));
+            list.set(index, tmp);
+            groop--;
+        }
+        list.forEach(i -> System.out.println(list_surname.get(i) + " " + list_name.get(i) + " " + list_patronymic.get(i) + " " + list_age.get(i) + " " + list_gender.get(i)));
     }
 
     static void repit(int numer){
@@ -45,6 +64,7 @@ public class homework {
 
     static void age(int age){
         list_age.add(age);
+        list.add(list_age.size()-1);
     }
 
     static void sex(String genfer){
