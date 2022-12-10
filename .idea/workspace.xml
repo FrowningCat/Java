@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="add homework(beta)">
-      <change afterPath="$PROJECT_DIR$/src/lesson5/homework.java" afterDir="false" />
+    <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="add homework">
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/homework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/set.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson5/homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Main" />
+      <module name="javaGB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.homework" />
       <module name="javaGB" />
@@ -64,6 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.homework" />
       </list>
     </recent_temporary>
@@ -85,7 +102,8 @@
       <workItem from="1670139302416" duration="8266000" />
       <workItem from="1670161688605" duration="1603000" />
       <workItem from="1670238477448" duration="1008000" />
-      <workItem from="1670308702133" duration="9564000" />
+      <workItem from="1670308702133" duration="9685000" />
+      <workItem from="1670660430588" duration="5734000" />
     </task>
     <task id="LOCAL-00001" summary="fix1">
       <created>1669380196717</created>
@@ -199,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670333404321</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add homework">
+      <created>1670333472621</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670333472621</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +257,7 @@
     <MESSAGE value="fix one exaple" />
     <MESSAGE value="last commit" />
     <MESSAGE value="add homework(beta)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add homework(beta)" />
+    <MESSAGE value="add homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework" />
   </component>
 </project>
