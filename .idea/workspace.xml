@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="add homework(beta)">
-      <change afterPath="$PROJECT_DIR$/src/lesson5/homework.java" afterDir="false" />
+    <list default="true" id="669c1199-138a-437c-b7c0-01f3c23442c0" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson5/homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -71,7 +72,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a4af6174-36db-4027-84f1-bf11e93aadb5" name="Changes" comment="" />
+      <changelist id="669c1199-138a-437c-b7c0-01f3c23442c0" name="Changes" comment="fix" />
       <created>1669373451075</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -86,6 +87,7 @@
       <workItem from="1670161688605" duration="1603000" />
       <workItem from="1670238477448" duration="1008000" />
       <workItem from="1670308702133" duration="9564000" />
+      <workItem from="1670743498331" duration="2508000" />
     </task>
     <task id="LOCAL-00001" summary="fix1">
       <created>1669380196717</created>
